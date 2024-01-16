@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "user123",
+      "time": "2 hours ago",
+      "location": "New York, NY",
+      "postText": "This is a sample post text.",
+      "postImage": "post_image_url.jpg",
+      "profileImage": "user_profile_image_url.jpg",
+      "likes": 42,
+      "commentsCount": 5,
+      "comments": [
+        {
+          "id": 1,
+          "username": "commenter1",
+          "text": "Nice post!",
+          "time": "1 hour ago",
+          "replies": [
+            {
+              "id": 2,
+              "username": "user123",
+              "text": "Thank you!",
+              "time": "30 minutes ago"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "username": "commenter2",
+          "text": "Great location!",
+          "time": "2 hours ago",
+          "replies": []
+        },
+        {
+          "id": 4,
+          "username": "commenter3",
+          "text": "I love this picture!",
+          "time": "3 hours ago",
+          "replies": []
+        },
+        {
+          "id": 5,
+          "username": "commenter4",
+          "text": "Awesome post!",
+          "time": "4 hours ago",
+          "replies": []
+        }
+      ]
+    }
+  ]
+}
